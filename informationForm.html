@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input form</title>
+    </head>
+    <body>
+        <h2 class="students">Student information form</h2>
+        <table>
+            <form action="validateAndDb.php" method="POST">
+                <tr>
+                    <td class="label">
+                        <label for="sRoll">Enter student roll number:- </label>
+                    </td>
+                    <td class="inputT">
+                        <input id="sRoll" type="text" name="sRoll">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="sName">Enter student name:-</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="sName" type="text" name="sName">
+                    </td>
+                </tr>
+                <tr>
+                    <th class="headingTag">
+                        <h3>Enter marks :- </h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="s1">subject 1</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="s1" type="text" name="s1">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="s2">subject 2</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="s2" type="text" name="s2">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="s3">subject 3</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="s3" type="text" name="s3">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="s4">subject 4</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="s4" type="text" name="s4">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <label for="s5">subject 5</label>
+                    </td>
+                    <td class="inputT">
+                        <input id="s5" type="text" name="s5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="buttonS" type="submit" value="submit"><input class="buttonR" type="reset" value="reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <style>
+            body{
+                background-color: blue;
+                width: 100%;
+            }
+            .students{
+                text-align: center;
+                font-size: 38px;
+                text-shadow: 2px 3px white;
+            }
+            table{
+                width: 50%;
+                margin: auto;
+                font-size: 28px;
+                text-shadow: 1px 1px yellow;
+            }
+            td{
+                text-align: center;
+                width: 50%;
+            }
+            input{
+                width: 90%;
+            }
+            .buttonS{
+                background-color: green;
+                font-size: 32px;
+                font-weight: bold;
+                text-transform: capitalize;
+                color: white;
+                width: 50%;
+                height: 50px;
+            }
+            .buttonR{
+                background-color: red;
+                font-size: 32px;
+                font-weight: bold;
+                color: white;
+                text-transform: capitalize;
+                width: 50%;
+                height: 50px;
+            }
+        </style>
+    </body>
+</html>
